@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">myAPP</string>
+    <string name="email">Email</string>
+    <string name="emailhint">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordhint">Password</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="login_now">Login Now</string>
+    <string name="not_a_member">Not a member</string>
+    <string name="signup_now">Signup Now</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>

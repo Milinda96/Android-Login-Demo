@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#23A7DB</color>
-    <color name="colorPrimaryDark">#23A7DB</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#f68b42</color>
     <color name="colorAccent">#FFFFFF</color>
 
     <color name="white">#FFFFFF</color>
@@ -41,6 +41,6 @@
     <color name="colorJ">#64FFDA</color>
     <color name="colorJJ">#1DE9B6</color>
 
-
+    <color name="drakBlue">#000029</color>
     <color name="colorBlack">#000000</color>
 </resources>

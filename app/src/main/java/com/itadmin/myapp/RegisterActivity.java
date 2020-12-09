@@ -7,25 +7,25 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
-    private TextView signUpBtn;
+    private TextView loginBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.user_register);
 
-        signUpBtn = findViewById(R.id.btn_signup);
-        signUpBtn.setOnClickListener(onClickSignUp());
+        loginBack = findViewById(R.id.btn_login);
+        loginBack.setOnClickListener(onClickSignUp());
     }
 
     private View.OnClickListener onClickSignUp() {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-                MainActivity.this.startActivity(intent);
+                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                RegisterActivity.this.startActivity(intent);
             }
         };
     }

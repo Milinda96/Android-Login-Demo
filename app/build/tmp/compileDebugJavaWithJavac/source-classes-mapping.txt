@@ -1,0 +1,8 @@
+com/itadmin/myapp/RegisterActivity.java
+ com.itadmin.myapp.RegisterActivity
+ com.itadmin.myapp.RegisterActivity$1
+com/itadmin/myapp/MainActivity.java
+ com.itadmin.myapp.MainActivity
+ com.itadmin.myapp.MainActivity$1
+com/itadmin/myapp/BuildConfig.java
+ com.itadmin.myapp.BuildConfig
